@@ -15,6 +15,6 @@ def register():
     return render_template('success.html')
 
 if __name__=='__main__':
-    print("Success")
+    print("Successful")
     app.run(host='0.0.0.0',port=8001)
 
